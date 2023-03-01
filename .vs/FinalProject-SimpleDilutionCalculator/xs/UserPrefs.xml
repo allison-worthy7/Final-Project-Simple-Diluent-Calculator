@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator/Program.cs">
+    <Files>
+      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" Line="1" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="1" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="10" Column="57" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FinalProject-SimpleDilutionCalculator" expanded="True">
+            <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
