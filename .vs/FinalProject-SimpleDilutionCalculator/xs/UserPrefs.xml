@@ -1,16 +1,9 @@
 ﻿<Properties StartupConfiguration="{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator/ConversionTool.cs">
     <Files>
-      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" Line="1" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="1" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="10" Column="57" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="47" Column="16" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,11 +13,13 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
 </Properties>

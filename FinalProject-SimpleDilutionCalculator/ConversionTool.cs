@@ -9,7 +9,6 @@ namespace FinalProject_SimpleDilutionCalculator
 		{
 			//Contains conversion factors between different units
 			conversionFactors = new Dictionary<string, double>();
-		}
-	}
-}
+
+			
 

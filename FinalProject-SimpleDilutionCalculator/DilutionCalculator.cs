@@ -53,6 +53,7 @@ namespace FinalProject_SimpleDilutionCalculator
                 _initialVolume = value;
             }
         }
+
         //will rewrite when Conversion Tool finished
         //need to add new object to call Conversion Tool methods for DiluentVolume
         //initialVolume is being set as finalConcentration. May need to get rid of the finalVolumne all together and have user input it in the beginning.
