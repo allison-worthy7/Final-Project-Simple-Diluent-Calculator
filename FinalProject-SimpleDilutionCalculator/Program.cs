@@ -12,7 +12,7 @@ class Program
        var input = Console.ReadLine();
         // Feature 1:"Master loop" 
         // Need to add ToUpper. How to do that with variable not string?
-        //Need to add a way for units to be added and passed to Conversion Tool
+        
 
         do
         {

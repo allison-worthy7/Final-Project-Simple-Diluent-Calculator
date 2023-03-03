@@ -58,22 +58,23 @@ namespace FinalProject_SimpleDilutionCalculator
         }
 
         //will rewrite when Conversion Tool finished
-        //need to add new object to call Conversion Tool methods for DiluentVolume
+        //need to add new instance to call Conversion Tool methods for DiluentVolume
         //initialVolume is being set as finalConcentration. May need to get rid of the finalVolumne all together and have user input it in the beginning.
 
         public double FinalVolume
         {
             get { return (_initialConcentration * _initialVolume) / _finalConcentration; }
+            //(1 * 100) / .8
+
         }
 
         public double DiluentVolume
         {
             get { return Math.Abs(FinalVolume - _initialVolume); }
+            //125-100=25mL
         }
     }
 }
-
-
 
 
 
