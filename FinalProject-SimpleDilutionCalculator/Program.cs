@@ -12,18 +12,21 @@ class Program
        var input = Console.ReadLine();
         // Feature 1:"Master loop" 
         // Need to add ToUpper. How to do that with variable not string?
-        //Need to add a way for units to be added and passed to Conversion Tool. Maybe just another Console.ReadLine.
+        //Need to add a way for units to be added and passed to Conversion Tool
 
         do
         {
-            Console.WriteLine("Enter the initial concentration of stock solution in units of mass or moles per volume");
+            Console.WriteLine("Enter the initial concentration of stock solution and its units");
             double initialConcentration = double.Parse(Console.ReadLine());
+            //string initialConcentrationUnit = Console.ReadLine();
 
-            Console.WriteLine("Enter the initial volume of the stock solution in units of volume");
+            Console.WriteLine("Enter the initial volume of the stock solution and its units");
             double initalVolume = double.Parse(Console.ReadLine());
+            //string initialVolumeUnit = Console.ReadLine();
 
-            Console.WriteLine("Enter the desired final concentration of the solution in units of mass or moles per volume");
+            Console.WriteLine("Enter the desired final concentration of the solution and its units");
             double finalConcentration = double.Parse(Console.ReadLine());
+            //string finalConcentrationUnit = Console.ReadLine();
 
             //not recognizing values from DilutionCalculator. Possibly has something to do with the initialVolume in Dilution Calculator.
 

@@ -15,6 +15,9 @@ namespace FinalProject_SimpleDilutionCalculator
             InitialVolume = initialVolume;
         }
 
+            //Need to create instance of ConversionTool somewhere
+            //_conversionTool = new ConversionTool();
+
         public double InitialConcentration
         {
             get { return _initialConcentration; }
@@ -60,7 +63,7 @@ namespace FinalProject_SimpleDilutionCalculator
 
         public double FinalVolume
         {
-            get { return _initialConcentration * _initialVolume / _finalConcentration; }
+            get { return (_initialConcentration * _initialVolume) / _finalConcentration; }
         }
 
         public double DiluentVolume
