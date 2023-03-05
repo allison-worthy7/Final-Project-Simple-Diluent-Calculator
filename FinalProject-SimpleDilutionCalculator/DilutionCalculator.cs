@@ -2,13 +2,13 @@
 
 namespace FinalProject_SimpleDilutionCalculator
 {
-    class DilutionCalculator
+    public class DilutionCalculator
     {
         private double _initialConcentration;
         private double _finalConcentration;
         private double _initialVolume;
 
-        public DilutionCalculator(double initialConcentration, double finalConcentration, double initialVolume)
+        public DilutionCalculator(double initialConcentration, double initialVolume, double finalConcentration)
         {
             InitialConcentration = initialConcentration;
             FinalConcentration = finalConcentration;
@@ -63,7 +63,12 @@ namespace FinalProject_SimpleDilutionCalculator
 
         public double FinalVolume
         {
-            get { return (_initialConcentration * _initialVolume) / _finalConcentration; }
+            get {
+                var part1 = _initialConcentration * _initialVolume;
+                var part2 = part1 / _finalConcentration;
+                result part2;
+
+                return (_initialConcentration * _initialVolume) / _finalConcentration; }
             //(1 * 100) / .8
 
         }

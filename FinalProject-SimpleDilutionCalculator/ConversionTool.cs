@@ -30,6 +30,9 @@ namespace FinalProject_SimpleDilutionCalculator
 			//conversion factors for g (not necessary to do uL)
 			conversionFactors.Add("g/mL", 1000);
 			conversionFactors.Add("g/L", 1000);
+		}
+	}
+}
 
 //			public double ConvertToMgPerMl(double value, string fromUnit)
 

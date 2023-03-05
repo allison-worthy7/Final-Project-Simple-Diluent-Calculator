@@ -16,8 +16,9 @@ class Program
 
         do
         {
+
             Console.WriteLine("Enter the initial concentration of stock solution and its units");
-            double initialConcentration = double.Parse(Console.ReadLine());
+           double initialConcentration = double.Parse(Console.ReadLine());
             //string initialConcentrationUnit = Console.ReadLine();
 
             Console.WriteLine("Enter the initial volume of the stock solution and its units");

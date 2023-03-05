@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1704.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject-SimpleDilutionCalculator", "FinalProject-SimpleDilutionCalculator\FinalProject-SimpleDilutionCalculator.csproj", "{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject-SimpleDilutionCalculator.test", "FinalProject-SimpleDilutionCalculator.test\FinalProject-SimpleDilutionCalculator.test.csproj", "{1B230F79-1C00-4B60-89EB-0AE5F902752F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B230F79-1C00-4B60-89EB-0AE5F902752F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B230F79-1C00-4B60-89EB-0AE5F902752F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B230F79-1C00-4B60-89EB-0AE5F902752F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B230F79-1C00-4B60-89EB-0AE5F902752F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
