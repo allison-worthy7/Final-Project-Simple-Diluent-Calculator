@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs">
     <Files>
-      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" Line="28" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="35" Column="10" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="83" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator.test/UnitTest1.cs" Line="1" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator.test/Usings.cs" Line="1" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" Line="26" Column="14" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" Line="48" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="55" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="141" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" Line="25" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject-SimpleDilutionCalculator" expanded="True">
             <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" />
-            <Node name="FinalProject-SimpleDilutionCalculator.test" expanded="True">
-              <Node name="DilutionCalculatorTest.cs" selected="True" />
-            </Node>
+            <Node name="FinalProject-SimpleDilutionCalculator.test" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -31,15 +30,13 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" selected="True" />
+          <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ConvertoMgPerMl.test FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator.test FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator.test FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

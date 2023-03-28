@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject-SimpleDilution
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalProject-SimpleDilutionCalculator.test", "FinalProject-SimpleDilutionCalculator.test\FinalProject-SimpleDilutionCalculator.test.csproj", "{1B230F79-1C00-4B60-89EB-0AE5F902752F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertoMgPerMl.test", "TestConvertoMgPerMl\ConvertoMgPerMl.test.csproj", "{6B86FF82-E629-43FD-A01B-107F40222F99}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{1B230F79-1C00-4B60-89EB-0AE5F902752F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B230F79-1C00-4B60-89EB-0AE5F902752F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B230F79-1C00-4B60-89EB-0AE5F902752F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B86FF82-E629-43FD-A01B-107F40222F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B86FF82-E629-43FD-A01B-107F40222F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B86FF82-E629-43FD-A01B-107F40222F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B86FF82-E629-43FD-A01B-107F40222F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

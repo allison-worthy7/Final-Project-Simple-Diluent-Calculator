@@ -15,11 +15,11 @@ namespace FinalProject_SimpleDilutionCalculator.test
 
                 double expectedOutput = Math.Abs(((initialConcentration * initialVolume) / finalConcentration) - initialVolume);
 
-                DilutionCalculator calculator = new DilutionCalculator(initialConcentration, initialVolume, finalConcentration, initialConcentrationUnit, initialVolumeUnit, finalConcentrationUnit);
+                DilutionCalculator calculator = new DilutionCalculator(initialConcentration, initialConcentrationUnit, initialVolume, initialVolumeUnit, finalConcentration, finalConcentrationUnit);
                 {
 
 
-                    Assert.Equal(expectedOutput, calculator.DiluentVolume("mg/mL"));
+                    Assert.Equal(expectedOutput, calculator.DiluentVolume());
 
                 }
             }

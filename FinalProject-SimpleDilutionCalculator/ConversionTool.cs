@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-
 namespace FinalProject_SimpleDilutionCalculator
+
 {
     public class ConversionTool
     {
@@ -16,11 +15,6 @@ namespace FinalProject_SimpleDilutionCalculator
             _conversionFactors.Add("ug/uL", 1000);
             _conversionFactors.Add("ug/mL", 1);
             _conversionFactors.Add("ug/L", 0.001);
-
-            //Conversion factors for ng 
-            _conversionFactors.Add("ng/uL", 1000000);
-            _conversionFactors.Add("ng/mL", 1000);
-            _conversionFactors.Add("ng/L", 1);
 
             //conversion factors for mg
             _conversionFactors.Add("mg/uL", 1000);
@@ -46,12 +40,57 @@ namespace FinalProject_SimpleDilutionCalculator
 
             double factor = _conversionFactors[fromUnit];
 
-            if (factor == 1 && !fromUnit.EndsWith("mg/mL"))
+            if (fromUnit.EndsWith("g/L"))
             {
-                return double.NaN;
+                // Convert from g/L to mg/mL
+                factor = _conversionFactors["mg/mL"] / _conversionFactors[fromUnit];
+            }
+            else if (fromUnit.EndsWith("mg/mL"))
+            {
+                // Convert from mg/mL to mg/mL
+                factor = 1;
+            }
+            else if (fromUnit.EndsWith("ug/uL"))
+            {
+                // Convert from ug/uL to mg/mL
+                factor = _conversionFactors["mg/mL"] / _conversionFactors["ug/uL"];
+            }
+            else if (fromUnit.EndsWith("ug/mL"))
+            {
+                // Convert from ug/mL to mg/mL
+                factor = _conversionFactors["mg/mL"] / _conversionFactors["ug/mL"];
+            }
+            else if (fromUnit.EndsWith("ug/L"))
+            {
+                // Convert from ug/L to mg/mL
+                factor = _conversionFactors["mg/mL"] / _conversionFactors["ug/L"];
+            }
+            else if (fromUnit.EndsWith("mg/uL"))
+            {
+                // Convert from mg/uL to mg/mL
+                factor = _conversionFactors["mg/mL"] / _conversionFactors["mg/uL"];
+            }
+            else if (fromUnit.EndsWith("g/mL"))
+            {
+                // Convert from g/mL to mg/mL
+                factor = _conversionFactors["g/mL"] / _conversionFactors["mg/mL"];
+            }
+            else
+            {
+                // Convert from unknown unit to mg/mL
+                factor = factor / _conversionFactors["mg/mL"];
             }
 
-            return value / factor;
+            // Convert to mg/mL
+            value *= factor;
+
+            // Convert to mL if necessary
+            if (!fromUnit.EndsWith("/mL"))
+            {
+                value = ConvertToMl(value, fromUnit);
+            }
+
+            return value;
         }
 
         public double ConvertToMl(double value, string fromUnit)
@@ -63,20 +102,33 @@ namespace FinalProject_SimpleDilutionCalculator
 
             double factor = _conversionFactors[fromUnit];
 
-            if (fromUnit.EndsWith("L"))
+            if (fromUnit == "mL")
             {
-                factor *= 1000.0;
-            }
-            else if (fromUnit.EndsWith("/uL"))
-            {
-                factor /= 1000.0;
-            }
-            else if (fromUnit.EndsWith("mg/mL"))
-            {
-                factor = 1.0 / _conversionFactors["mg/mL"];
+                // Unit is already in mL
+                return value;
             }
 
-            return value * factor;
+            if (fromUnit.EndsWith("uL"))
+            {
+                // Convert from uL to mL
+                factor *= _conversionFactors["mL"];
+            }
+            else
+            {
+                // Convert from mL, L to mL
+                factor *= _conversionFactors["mL"];
+            }
+
+
+            // Convert to mL
+            value *= factor;
+
+            return value;
+        }
+
+        public bool IsValidUnit(string unit)
+        {
+            return _conversionFactors.ContainsKey(unit);
         }
     }
 }
@@ -86,97 +138,5 @@ namespace FinalProject_SimpleDilutionCalculator
 
 
 
-
-
-
-
-
-
-
-//using System;
-//namespace FinalProject_SimpleDilutionCalculator
-//{
-//	public class ConversionTool
-//	{
-//		private Dictionary<string, double> conversionFactors;
-
-//		//Feature 2: Dictionary
-
-//		public ConversionTool()
-//		{
-
-
-
-
-
-
-
-
-
-
-//	//Contains conversion factors between different units
-//	conversionFactors = new Dictionary<string, double>();
-
-//	//Conversion factors for ug 
-//	conversionFactors.Add("ug/uL", 1000);
-//	conversionFactors.Add("ug/mL", 1);
-//	conversionFactors.Add("ug/L", 0.001);
-
-//	//Conversion factors for ng 
-//	conversionFactors.Add("ng/uL", 1000000);
-//	conversionFactors.Add("ng/mL", 1000);
-//	conversionFactors.Add("ng/L", 1);
-
-//	//conversion factors for mg
-//	conversionFactors.Add("mg/uL", 1000);
-//	conversionFactors.Add("mg/mL", 1);
-//	conversionFactors.Add("mg/L", 0.001);
-
-//	//conversion factors for g (not necessary to do uL)
-//	conversionFactors.Add("g/mL", 1000);
-//	conversionFactors.Add("g/L", 1000);
-
-//	//conversion factors for units of volume
-//	conversionFactors.Add("mL", 1.0);
-//	conversionFactors.Add("L", 1000.0);
-//	conversionFactors.Add("uL", 0.001);
-
-//}
-
-//public double ConvertToMgPerMl(double value,  string fromUnit)
-
-//{	//may need to get rid of this 
-//	if (!conversionFactors.ContainsKey(fromUnit))
-//	{
-//		throw new ArgumentException($"Unknown unit '{fromUnit}'");
-//	}
-
-//	double factor = conversionFactors[fromUnit];
-//	return value / factor;
-//}
-
-//public double ConvertToMl(double value, string fromUnit)
-//{
-//	if (!conversionFactors.ContainsKey(fromUnit))
-//	{
-//		throw new ArgumentException($"Unknown unit '{fromUnit}'");
-//	}
-
-//	double factor = conversionFactors[fromUnit];
-
-//	if (fromUnit.EndsWith("L"))
-//	{
-//		factor *= 1000.0;
-//	}
-//	else if (fromUnit.EndsWith("/uL"))
-//	{
-//		factor /= 1000.0;
-//	}
-
-//return value * factor;
-//		}
-
-//	}
-//}
 
 
