@@ -3,19 +3,19 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator/ConversionTool.cs">
     <Files>
-      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" Line="48" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="55" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="141" Column="1" />
-      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" Line="25" Column="14" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" Line="10" Column="27" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="21" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="33" Column="49" />
+      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" Line="17" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject-SimpleDilutionCalculator" expanded="True">
             <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" />
-            <Node name="FinalProject-SimpleDilutionCalculator.test" expanded="True" selected="True" />
+            <Node name="FinalProject-SimpleDilutionCalculator.test" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -30,7 +30,7 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" />
+          <Node name="FinalProject-SimpleDilutionCalculator" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
