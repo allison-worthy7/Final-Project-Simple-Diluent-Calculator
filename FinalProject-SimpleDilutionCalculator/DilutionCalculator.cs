@@ -12,7 +12,7 @@ namespace FinalProject_SimpleDilutionCalculator
         private ConversionTool _conversionTool;
 
         public DilutionCalculator(double initialConcentration, string initialConcentrationUnit, double initialVolume, string initialVolumeUnit, double finalConcentration, string finalConcentrationUnit)
-        {
+        {   //
             _conversionTool = new ConversionTool();
 
             // Convert initial concentration and final concentration to mg/mL if necessary

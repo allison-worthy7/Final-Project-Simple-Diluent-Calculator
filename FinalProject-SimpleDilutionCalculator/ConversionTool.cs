@@ -8,6 +8,8 @@ namespace FinalProject_SimpleDilutionCalculator
 
         public ConversionTool()
         {
+            //Feature 2: Dictionary
+
             //Contains conversion factors between different units
             _conversionFactors = new Dictionary<string, double>();
 
@@ -31,6 +33,7 @@ namespace FinalProject_SimpleDilutionCalculator
             _conversionFactors.Add("uL", 0.001);
         }
 
+            //Feature 3: Conversion Tool
         public double ConvertToMgPerMl(double value, string fromUnit)
         {
             if (!_conversionFactors.ContainsKey(fromUnit))
@@ -118,7 +121,6 @@ namespace FinalProject_SimpleDilutionCalculator
                 // Convert from mL, L to mL
                 factor *= _conversionFactors["mL"];
             }
-
 
             // Convert to mL
             value *= factor;

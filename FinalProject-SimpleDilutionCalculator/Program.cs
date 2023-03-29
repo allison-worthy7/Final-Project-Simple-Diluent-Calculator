@@ -7,7 +7,7 @@ namespace FinalProject_SimpleDilutionCalculator
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Dilution Calculator!");
-
+            //Feature 1: "Masterloop"
             while (true)
             {
                 Console.WriteLine("Enter the value for initial concentration of stock solution");
