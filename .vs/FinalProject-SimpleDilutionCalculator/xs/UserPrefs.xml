@@ -5,10 +5,9 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator/ConversionTool.cs">
     <Files>
-      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" Line="10" Column="27" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="21" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="15" Column="13" />
       <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="33" Column="49" />
-      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" Line="17" Column="17" />
+      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
