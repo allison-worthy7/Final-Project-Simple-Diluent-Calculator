@@ -16,3 +16,5 @@ Special Instructions:
 This program is designed to convert units that are most commonly used in dilutions suchs as: ug, mg, g, uL, mL and L. Please keep this in mind when entering values for units of concentration or volume.
 
 This program also assumes that the user's desired final concentration are in units of mg/mL, as this is the most commonly used unit of concentration for simple dilutions.
+
+Percentages are represented as decimal values (ex: 0.8 = 80%)

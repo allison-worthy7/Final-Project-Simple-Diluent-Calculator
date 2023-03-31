@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{D7157A05-5AAB-4E50-8EC7-F8DE53D41FB8}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator/ConversionTool.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject-SimpleDilutionCalculator/README.md">
     <Files>
+      <File FileName="FinalProject-SimpleDilutionCalculator/README.md" Line="20" Column="62" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/Program.cs" />
+      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" />
       <File FileName="FinalProject-SimpleDilutionCalculator/DilutionCalculator.cs" Line="15" Column="13" />
-      <File FileName="FinalProject-SimpleDilutionCalculator/ConversionTool.cs" Line="33" Column="49" />
-      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" Line="1" Column="1" />
+      <File FileName="FinalProject-SimpleDilutionCalculator.test/DilutionCalculatorTest.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,8 +36,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator.test FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.FinalProject-SimpleDilutionCalculator PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
